@@ -11,7 +11,14 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Sibongile Tsopo</footer>
+        <footer className="App-footer">
+          Coded by Sibongile Tsopo. The code is{" "}
+          <a href="https://github.com/SibongileT88/dictionary-project">
+            open sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a href="https://silly-caramel-4f729c.netlify.app/">Netlify</a>
+        </footer>
       </div>
     </div>
   );
