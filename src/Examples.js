@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function Examples(props) {
-  return <div>Hello from Examples</div>;
+  if (props.example) {
+    return (
+      <div className="Examples">
+        <p>"{props.example}"</p>
+      </div>
+    );
+  }
 }
