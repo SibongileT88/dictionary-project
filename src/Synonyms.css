@@ -1,0 +1,15 @@
+.Synonyms {
+  color: #9896f1;
+  font-weight: 600;
+}
+
+.Synonyms ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+}
